@@ -10,6 +10,5 @@ git commit -m "$msg"
 git push
 
 ## submodule change
-# cd themes/hugo-theme-cleanwhite
 # git submodule update --remote --rebase
 # git push --recurse-submodules=check
