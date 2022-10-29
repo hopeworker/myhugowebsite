@@ -1,5 +1,5 @@
 baseurl = "https://www.littlebear.cyou"
-title = "My Blog"
+title = "wei blog"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -13,11 +13,11 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  header_image = "img/home-bg-jeep.jpg"
-  SEOTitle = "我的博客 | myname Blog"
-  description = "我的描述。"
-  keyword = "my keywords"
-  slogan = "my slogan"
+  header_image = "img/home-bg.jpg"
+  SEOTitle = "Wei的博客 | wei blog"
+  description = "developer"
+  keyword = "developer"
+  slogan = "I'm a developer"
 
   image_404 = "img/404-bg.jpg"
   title_404 = "你来到了没有知识的荒原 :("
@@ -35,7 +35,7 @@ home = ["HTML", "RSS", "Algolia"]
   algolia_apiKey = ""
 
   # Sidebar settings
-  sidebar_about_description = "my sidebar description"
+  sidebar_about_description = "How are you : )"
 
   # use absolute URL, seeing it's used in both `/` and `/about/`
   sidebar_avatar = "img/sidebar_avatar.png"
