@@ -53,7 +53,7 @@ hugo -D
 ![](/img/setup-your-website/screenshot.png)  
 
 ### Reference  
-https://gohugo.io/getting-started/quick-start/
-https://themes.gohugo.io/
-https://themes.gohugo.io/themes/hugo-theme-cleanwhite/
-https://themes.gohugo.io/themes/hugo-theme-cleanwhite/#comment-systems
+https://gohugo.io/getting-started/quick-start/  
+https://themes.gohugo.io/  
+https://themes.gohugo.io/themes/hugo-theme-cleanwhite/  
+https://themes.gohugo.io/themes/hugo-theme-cleanwhite/#comment-systems  
