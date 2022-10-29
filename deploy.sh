@@ -10,5 +10,11 @@ git commit -m "$msg"
 git push
 
 ## submodule change
+## make submodule(themes/hugo-theme-cleanwhite) change
+# cd themes/hugo-theme-cleanwhite
+# git commit -am "make submodule change comment"
+# cd ..
 # git submodule update --remote --rebase
-# git push --recurse-submodules=check
+# git add .
+# git commit -m "add main module change"
+# git push --recurse-submodules=on-demand
