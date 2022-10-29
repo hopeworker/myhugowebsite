@@ -1,4 +1,4 @@
-baseurl = "https://hopeworker.github.io/myhugowebsite"
+baseurl = "https://www.littlebear.cyou"
 title = "My Blog"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
