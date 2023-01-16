@@ -202,3 +202,25 @@ Then a call to myColorPoint.equals(mySmellPoint) will throw a StackOverflowError
 
 ## hashcode
 In summary, you must override hashCode every time you override equals, or your program will not run correctly.
+
+## cloneable
+
+If a class’s clone method returns an instance that is not obtained by calling super.clone but by calling a constructor, 
+the compiler won’t complain, but if a subclass of that class calls super.clone, the resulting object will have the wrong class, 
+preventing the subclass from clone method from working properly. 
+
+It is legal and desirable to do this because Java supports covariant return types. 
+In other words, an overriding method’s return type can be a subclass of the overridden method’s return type.
+
+```java
+// Clone method for class with references to mutable state
+@Override public Stack clone() {
+    try {
+        Stack result = (Stack) super.clone();
+        result.elements = elements.clone();
+        return result;
+    } catch (CloneNotSupportedException e) {
+        throw new AssertionError();
+    }
+}
+```
